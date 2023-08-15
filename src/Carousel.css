@@ -1,45 +1,61 @@
+/* Estilos base del carrusel */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
 .carousel {
-    display: flex;
-    align-items: center;
-    position: relative;
-    max-width: 600px; /* Cambia el tamaño máximo según tus necesidades */
-    margin: 0 auto;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+/* Estilos de los puntos de navegación */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active-dot {
+  background-color: black;
+}
+
+/* Estilos responsive para teléfono */
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 80%;
+    margin-top: 5%;
+   /* Reducir el ancho en dispositivos móviles */
+    border-radius: 10px; /* Reducir el radio de la esquina en dispositivos móviles */
   }
-  
-  .slides-container {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
-  
+
   .slide {
-    flex: 0 0 100%;
-    height: 300px; /* Cambia la altura según tus necesidades */
-    background-size: cover;
-    background-position: center;
+    height: 150px; /* Ajustar la altura para dispositivos más pequeños */
   }
-  
-  .prev-button,
-  .next-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    cursor: pointer;
-    border: none;
-    background: none;
-    color: white;
-    outline: none;
-  }
-  
-  .prev-button {
-    left: 20px;
-  }
-  
-  .next-button {
-    right: 20px;
-  }
-  
-  .active {
-    transform: translateX(0%);
-  }
-  
+}
+.custom-button {
+  background-color: #83072D;
+  /* Otros estilos que quieras aplicar */
+}

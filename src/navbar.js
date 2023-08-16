@@ -43,7 +43,7 @@ const Navbar = () => {
           >
             <Button
               sx={{
-                fontSize: ".8rem",
+                fontSize: "1rem",
                 color: "inherit",
               }}
             >
@@ -51,7 +51,7 @@ const Navbar = () => {
             </Button>
             <Button
               sx={{
-                fontSize: ".8rem",
+                fontSize: "1rem",
                 color: "inherit",
               }}
             >
@@ -59,7 +59,7 @@ const Navbar = () => {
             </Button>
             <Button
               sx={{
-                fontSize: ".8rem",
+                fontSize: "1rem",
                 color: "inherit",
               }}
             >
@@ -67,7 +67,7 @@ const Navbar = () => {
             </Button>
             <Button
               sx={{
-                fontSize: "1.2rem",
+                fontSize: "1rem",
                 color: "inherit",
               }}
             >

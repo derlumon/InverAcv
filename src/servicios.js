@@ -3,19 +3,19 @@ import { Container, Grid, Card, CardMedia, CardContent, Typography, Button } fro
 
 const serviciosData = [
   {
-    title: 'Servicio 1',
-    image: 'https://via.placeholder.com/200x160',
-    description: 'Descripción del Servicio 1.',
+    title: 'Capacitaciones Grupales',
+    image: 'https://blog.adecco.com.mx/wp-content/uploads/2019/06/trabajo-equipo-capacitacion-empresas-1.png',
+    description: 'Únete a nuestras capacitaciones grupales y forma parte de una comunidad comprometida en aprender, crecer y prosperar en el emocionante mundo de las inversiones. ',
   },
   {
-    title: 'Servicio 2',
-    image: 'https://via.placeholder.com/200x160',
-    description: 'Descripción del Servicio 2.',
+    title: 'Reunión Online',
+    image: 'https://arteyanimacion.com/wp-content/uploads/2020/03/19-videoconferencia.jpg',
+    description: 'A través de presentaciones dinámicas, debates estimulantes y ejercicios prácticos en tiempo real, te proporcionaremos las herramientas esenciales para tomar decisiones informadas y confiadas en tus inversiones.'
   },
   {
-    title: 'Servicio 3',
-    image: 'https://via.placeholder.com/200x160',
-    description: 'Descripción del Servicio 3.',
+    title: 'Consultoria ',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3IWdJgurWu22bIzkD8tq5-96nQ7LRiM9lwA&usqp=CAU',
+    description: 'En nuestra plataforma de inversiones, te brindamos un servicio de consultoría personalizada para ayudarte a alcanzar tus objetivos financieros. ',
   },
 
 ];

@@ -43,7 +43,6 @@ const Navbar = () => {
           >
             <Button
               sx={{
-                fontFamily: "Sweet Sans Pro",
                 fontSize: ".8rem",
                 color: "inherit",
               }}
@@ -52,7 +51,6 @@ const Navbar = () => {
             </Button>
             <Button
               sx={{
-                fontFamily: "Sweet Sans Pro",
                 fontSize: ".8rem",
                 color: "inherit",
               }}
@@ -61,7 +59,6 @@ const Navbar = () => {
             </Button>
             <Button
               sx={{
-                fontFamily: "Sweet Sans Pro",
                 fontSize: ".8rem",
                 color: "inherit",
               }}
@@ -70,12 +67,11 @@ const Navbar = () => {
             </Button>
             <Button
               sx={{
-                fontFamily: "Sweet Sans Pro",
-                fontSize: ".8rem",
+                fontSize: "1.2rem",
                 color: "inherit",
               }}
             >
-              cuatro
+              Servicios
             </Button>
           </Box>
         </Box>

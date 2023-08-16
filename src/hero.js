@@ -2,12 +2,12 @@ import React from "react";
 import "./Hero.css";
 import { Box, Typography, Button } from "@mui/material";
 import hero from "./img/Inversion.jpg";
-import logo from "./img/hero.jpg";
+
 
 const Hero = () => {
   return (
     <div className="image-overlay-container">
-      <Box sx={{ width: "100%", height: {xs: "100%" ,md:"75%"},top:{xs: "120px" ,md:"175px"}}} position="relative">
+      <Box sx={{ width: "100%", height: {xs: "100%" ,md:"100%"},top:{xs: "120px" ,md:"175px"}}} position="relative">
         <img className="background-image" src={hero} alt="Image1" />
         <Box
           sx={{
@@ -16,7 +16,7 @@ const Hero = () => {
             left: { xs: "15%", md: "8%" },
             right: { xs: "15%", md: "8%" },
             gap: { xs: 10, md: 20 },
-            marginTop:{ xs: "5%", md: "7%" }
+            marginTop:{ xs: "40%", md: "7%" }
           }}
           position="absolute"
         >
@@ -51,19 +51,7 @@ const Hero = () => {
                 Contactanos
               </Button>
             </Box>
-            <Box sx={{ maxWidth: 400, maxHeight: 400 }}>
-              <Box
-                sx={{
-                  width: { xs: 310, md: 370 },
-                  height: { xs: 310, md: 370 },
-                  backgroundColor: "#83072D",
-                  position: "relative",
-                  borderRadius: "10%",
-                }}
-              >
-                <img className="background-image2" src={logo} alt="Image1" />
-              </Box>
-            </Box>
+            
           </Box>
         </Box>
       </Box>

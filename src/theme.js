@@ -30,6 +30,6 @@ export const theme = createTheme({
   },
   spacing: 4,
   typography: {
-    fontFamily: "Rubik",
+    fontFamily: "Lato",
   },
 });
